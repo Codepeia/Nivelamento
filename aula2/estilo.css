@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+body{
+   
+}
+
+header{
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(230, 21, 21);
+}
+#titulo_cabecalho{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.titulo_secoes{
+    color: crimson;
+}
+#titulo-secao2{
+    font-size: 100px;
+}
+
+
+section{
+    border: 1px solid black;
+    height: 20vh;  
+    background-color: cadetblue;     
+}
+
+.secao{
+    background-color: chartreuse;
+}
+
+
+
+footer{
+    height: 30vh;  
+    background-color: rgb(37, 234, 248);   
+}

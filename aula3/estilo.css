@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+
+ @font-face{
+    font-family: nomeFonte;
+    src:url(fontes/Fuggles-Regular.ttf);
+ }
+ @font-face {
+    font-family: fontFaroeste;
+    src: url(fontes/RioGrande.ttf);
+ }
+#header-home{
+    width: 100%;
+    height: 23vh;
+    background-color: #9CA777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header-nav{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+}
+li {
+    list-style: none;
+    padding: 20px;
+    font-family: nomeFonte;
+    font-weight: bold   ;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: #7C9070;
+    border-radius: 10px;
+}
+#section-banner{
+    width: 100%;
+    height: 50vh;
+
+}
+#section-cards{
+    width: 100%;
+    height: 60vh;
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 20%;
+    height: 60%;
+    box-shadow: 0 4px 8px 0 rgba(117, 116, 116, 0.2);     
+}
+.img-card{
+    width: 100%;
+    height: 70%;
+    background-color: brown;
+}
+.text-card{
+    width: 100%;
+    height: 30%;    
+    text-align: center;
+}
+.text-card-titulo{
+    padding-top: 15px;
+    font-family: nomeFonte;
+    font-size: 20px;
+}
+.text-card-paragrafo{
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em; 
+}
+#secao3{
+    height: 60vh;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(255,255,255);
+    /*background: linear-gradient(329deg, rgba(255,255,255,1) 1%, rgba(52,82,2,1) 100%, rgba(0,212,255,1) 100%);*/
+    background: rgb(255,255,255);
+    background: linear-gradient(329deg, rgba(255,255,255,1) 18%, rgba(52,82,2,1) 100%);
+}
+#text-secao3{
+    width: 40%;
+    height: 60%;
+    margin-left: 10%;
+
+    
+}
+#img-secao3{
+    margin-right: 10%;
+}
+#text-secao3 > h1{
+    font-size: 3em;
+    
+}
+#text-secao3 > h2{
+    padding-top: 5%;
+    
+}
+#text-secao3 > p{
+    padding-top: 5%;
+    
+}
+hr{
+    border: 1px solid #4C6720;
+    margin-right: 15%;
+}
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+
+    <form action="recebeDados.c" method="post">
+            Nome: <input type="text" name="nome" id=""><br>
+            Senha: <input type="password" name="senha" id=""><br>
+            Data: <input type="datetime-local" name="data" id=""><br>
+            Color: <input type="color" name="cor" id=""><br>
+
+            Curso:<br>
+            <input type="radio" value="CC" name="curso" id="">CC<br>
+            <input type="radio" value="ADS" name="curso" id="">ADS<br>
+            <input type="radio" value="ES" name="curso" id="">ES<br>
+
+            <input type="checkbox" value="APE" name="APE" id="">APE
+            <input type="checkbox" value="POO" name="POO" id="">POO
+            <input type="checkbox" value="SC" name="SC" id="">SC
+            <br>
+            Estado<select name="estado" id="">
+                <option value=""></option>
+                <option value="mg">MG</option>
+                <option value="df">DF</option>
+                <option selected value="SP">SP</option>
+            </select>
+            <br>
+            Observacao: <br>
+            <textarea name="obs" id="" cols="30" rows="10">
+            </textarea>
+<br>
+            <input type="submit" value="texto">
+    </form>
+
+</body>
+</html>

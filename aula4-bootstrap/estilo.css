@@ -1,0 +1,48 @@
+.navbar{
+    background-color: cadetblue;
+    height: 20vh;
+    box-shadow: 10px 5px 10px rgb(167, 166, 166);;
+}
+.nav-item{
+    font-family: cursive;
+    color: rgb(34, 34, 34);
+    font-size: 1.2em;
+}
+#navbarNav{
+    justify-content: center;
+
+}
+.navbar-nav{
+    width: 100%;
+    justify-content: center;
+    
+}
+.nav-item{
+    padding-left:20px;
+    padding-right:20px;
+}
+.nav-link{
+    padding-left:15%;
+    
+}
+.nav-link:hover{
+    color:rgb(34, 34, 34);
+}
+
+@media screen and (max-width: 1000px){
+    .navbar{
+        background-color: red;
+        height: 40vh ;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .navbar{
+        background-color:blue;
+        height: 25vh ;
+    }
+    .nav-item{
+        font-size: 15px;
+    } 
+    
+}
